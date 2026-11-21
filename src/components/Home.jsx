@@ -44,7 +44,10 @@ export default function Home() {
       </div>
 
       <div className="home-image">
-        <img src="\public\photo.jpg" alt="Abel Varghese" />
+        <img
+          src={`${import.meta.env.BASE_URL}photo.jpg`}
+          alt="Abel Varghese"
+        />
       </div>
 
     </section>
